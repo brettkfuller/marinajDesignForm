@@ -39,7 +39,11 @@
             }
             .column2 {
             float: left;
-            width: 33%;
+            width: 33.33%;
+            }
+            .column3 {
+            float: left;
+            width: 50%;
             }
             .row:after {
             content: "";
@@ -52,7 +56,7 @@
       <div>Submission Time: {submissiondt}</div>
       <ul class="list">
       <h1><b><u> Design Details Form</u></b>
-            <h3><b> Primary Event Information</b><h3> 
+            <h3><b><u> Primary Event Information</u></b><h3> 
             <div class="row">
                   <div class="column">
                         <h2><b> Event Name:</b></h2>
@@ -71,95 +75,129 @@
                               <p> {ballroom}</p> 
                   </div>
             </div>
-                  <h2><b> VIP Suite:</b></h2>
-                        <p> {vipSuite}</p>
-                  <h2><b> Doors open at:</b></h2>
-                        <p> {doorsOpen}</p>
-                  <h2><b> Facility vacated by:</b></h2>
-                        <p> {vacate}</p>                        
-                  <h2><b> Final Guest Count:</b></h2>
-                        <p> {totalGuests}</p>
+                        <h2><b> VIP Suite:</b></h2>
+                              <p> {vipSuite}</p>
+                        <h2><b> Doors open at:</b></h2>
+                              <p> {doorsOpen}</p>
+                        <h2><b> Facility vacated by:</b></h2>
+                              <p> {vacate}</p>                        
+                        <h2><b> Final Guest Count:</b></h2>
+                              <p> {totalGuests}</p>
 
-            <h3><b> Ceremony</b><h3> 
+            <h3><b><u> Ceremony</u></b><h3> 
             <div class="row">
                   <div class="column2">
-                  <h2><b> Ceremony Location:</b></h2>
-                        <p> {ceremonyLocation}</p>
+                        <h2><b> Ceremony Location:</b></h2>
+                              <p> {ceremonyLocation}</p>
                   </div>
                   <div class="column2">
-                  <h2><b> Ceremony Start Time:</b></h2>
-                        <p> {cerStartTime}</p>
+                        <h2><b> Ceremony Start Time:</b></h2>
+                              <p> {cerStartTime}</p>
                   </div>
                   <div class="column2">
-                  <h2><b> Approximate Ceremony End Time:</b></h2>
-                        <p> {cerEndTime}</p>   
+                        <h2><b> Approximate Ceremony End Time:</b></h2>
+                              <p> {cerEndTime}</p>   
                   </div>
             </div>
-      <h2><b> Total chairs needed for ceremony:</b></h2>
-            <p> {totalChairs}</p>
-      <h2><b> Ceremony Set-up Style:</b></h2>
-            <p> {setupStyle}</p>
-      <h2><b> Will post-ceremony photoshoot be on site?:</b></h2>
-            <p> {postCerePhoto}</p>
-      <h2><b> Will host be providing additional decor?:</b></h2>
-            <p> {addDecor}</p>
-      <h2><b> Ceremony Notes:</b></h2>
-            <p> {cereNotes}</p>
+                        <h2><b> Total chairs needed for ceremony:</b></h2>
+                              <p> {totalChairs}</p>
+                        <h2><b> Ceremony Set-up Style:</b></h2>
+                              <p> {setupStyle}</p>
+                        <h2><b> Will post-ceremony photoshoot be on site?:</b></h2>
+                              <p> {postCerePhoto}</p>
+                        <h2><b> Will host be providing additional decor?:</b></h2>
+                              <p> {addDecor}</p>
+                        <h2><b> Ceremony Notes:</b></h2>
+                              <p> {cereNotes}</p>
 
       
-      <h3><b> Room/Table Design</b><h3> 
-      <h2><b> Total Number of Guest Tables:</b></h2>
-            <p> {guestTables}</p>
-            <p><i>***Any outside linen must be submitted one week prior.</i> {priorDate}</p>
-      <h2><b> Sign-In Table needed?:</b></h2>
-            <p> {signInNeed}</p>
-      <h2><b> Sign-In Table Linen:</b></h2>
-            <p> {signInLinen}</p>
-      <h2><b> Cake Table needed?:</b></h2>
-            <p> {cakeNeed}</p>
-      <h2><b> Cake Table Linen:</b></h2>
-            <p> {cakeLinen}</p>
-      <h2><b> Gift Table needed?:</b></h2>
-            <p> {giftNeed}</p>
-      <h2><b> Gift Table Linen:</b></h2>
-            <p> {giftLinen}</p>
-      <h2><b> Dessert Table needed?:</b></h2>
-            <p> {dessertNeed}</p>
-      <h2><b> Dessert Table Linen:</b></h2>
-            <p> {dessertLinen}</p>
-      <h2><b> Head Table Linen:</b></h2>
-            <p> {headLinen}</p>
-      <h2><b> Number of Guests on Head Table:</b></h2>
-            <p> {guestsHeadTable}</p>
-      <h2><b> Stage Rental:</b></h2>
-            <p> {stageRental}</p>
-      <h2><b> Stage Location:</b></h2>
-            <p> {stageLocation}</p>
-      <h2><b> Stage Size:</b></h2>
-            <p> {stageSize}</p>
-      <h2><b> Other tables needed:</b></h2>
-            <p> {otherTables}</p>
-      <h2><b> Seating Chart:</b></h2>
-            <p> {seatingChart}</p>
-            <p><i>***Seating chart must be provided 10 days prior to event date</i></p>
-      <h2><b> Table Linen:</b></h2>
-            <p> {tableLinen}</p>
-      <h2><b> Centerpiece:</b></h2>
-            <p> {centerpiece}</p>
-      <h2><b> Flower Ball:</b></h2>
-            <p> {flowerBall}</p>
-      <h2><b> Flower Ball Colors:</b></h2>
-            <p> {flowBallCol}</p>
-      <h2><b> Charger Type:</b></h2>
-            <p> {charger}</p>
-      <h2><b> Glassware:</b></h2>
-            <p> {glass}</p>
-      <h2><b> Napkin Color:</b></h2>
-            <p> {napColor}</p>
-      <h2><b> Napkin Fold:</b></h2>
-            <p> {napFold}</p>
-      <h2><b> Room/Table Design Notes:</b></h2>
-            <p> {roomNotes}</p>
+            <h3><b> Room/Table Design</b><h3> 
+                        <h2><b> Total Number of Guest Tables:</b></h2>
+                              <p> {guestTables}</p>
+                              <p><i>***Any outside linen must be submitted one week prior.</i> {priorDate}</p>
+            <div class="row">
+                  <div class="column">
+                        <h2><b> Sign-In Table needed:</b></h2>
+                              <p> {signInNeed}</p>
+                  </div>
+                  <div class="column">
+                        <h2><b> Cake Table needed?:</b></h2>
+                              <p> {cakeNeed}</p>
+                  </div>
+                  <div class="column">
+                        <h2><b> Gift Table needed?:</b></h2>
+                              <p> {giftNeed}</p>   
+                  </div>
+                  <div class="column">   
+                        <h2><b> Dessert Table needed?:</b></h2>
+                              <p> {dessertNeed}</p> 
+                  </div>
+            </div>
+            <div class="row">
+                  <div class="column">
+                        <h2><b> Sign-In Table Linen:</b></h2>
+                              <p> {signInLinen}</p>
+                  </div>
+                  <div class="column">
+                        <h2><b> Cake Table Linen:</b></h2>
+                              <p> {cakeLinen}</p>
+                  </div>
+                  <div class="column">
+                        <h2><b> Gift Table Linen:</b></h2>
+                              <p> {giftLinen}</p>   
+                  </div>
+                  <div class="column">   
+                        <h2><b> Dessert Table Linen:</b></h2>
+                              <p> {dessertLinen}</p> 
+                  </div>
+            </div>
+            <div class="row">
+                  <div class="column3">
+                        <h2><b> Head Table Linen:</b></h2>
+                              <p> {headLinen}</p>
+                  </div>
+                  <div class="column3">
+                        <h2><b> Number of Guests on Head Table:</b></h2>
+                              <p> {guestsHeadTable}</p>
+                  </div>
+            </div>
+            <div class="row">
+                  <div class="column2">
+                        <h2><b> Stage Rental?:</b></h2>
+                              <p> {stageRental}</p>
+                  </div>
+                  <div class="column2">
+                        <h2><b> Stage Size:</b></h2>
+                              <p> {stageLocation}</p>
+                  </div>
+                  <div class="column2">
+                        <h2><b> Stage Size:</b></h2>
+                              <p> {stageSize}</p>   
+                  </div>
+            </div>
+                        <h2><b> Other tables needed:</b></h2>
+                              <p> {otherTables}</p>
+                        <h2><b> Seating Chart:</b></h2>
+                              <p> {seatingChart}</p>
+                              <p><i>***Seating chart must be provided 10 days prior to event date</i></p>
+                        <h2><b> Table Linen:</b></h2>
+                              <p> {tableLinen}</p>
+                        <h2><b> Centerpiece:</b></h2>
+                              <p> {centerpiece}</p>
+                        <h2><b> Flower Ball:</b></h2>
+                              <p> {flowerBall}</p>
+                        <h2><b> Flower Ball Colors:</b></h2>
+                              <p> {flowBallCol}</p>
+                        <h2><b> Charger Type:</b></h2>
+                              <p> {charger}</p>
+                        <h2><b> Glassware:</b></h2>
+                              <p> {glass}</p>
+                        <h2><b> Napkin Color:</b></h2>
+                              <p> {napColor}</p>
+                        <h2><b> Napkin Fold:</b></h2>
+                              <p> {napFold}</p>
+                        <h2><b> Room/Table Design Notes:</b></h2>
+                              <p> {roomNotes}</p>
 
       
       <h3><b> Vendors/Entertainment</b><h3> 
