@@ -33,15 +33,15 @@
             padding: 0px;
             }
             /* Set additional styling options for the columns*/
-            .column {
+            .column4th {
             float: left;
             width: 25%;
             }
-            .column2 {
+            .column3rd {
             float: left;
             width: 33.33%;
             }
-            .column3 {
+            .columnHalf {
             float: left;
             width: 50%;
             }
@@ -58,19 +58,19 @@
       <h1><b><u> Design Details Form</u></b>
             <h3><b><u> Primary Event Information</u></b><h3> 
             <div class="row">
-                  <div class="column">
+                  <div class="column4th">
                         <h2><b> Event Name:</b></h2>
                               <p> {eventName}</p>
                   </div>
-                  <div class="column">
+                  <div class="column4th">
                         <h2><b> Host:</b></h2>
                               <p> {Host}</p>
                   </div>
-                  <div class="column">
+                  <div class="column4th">
                         <h2><b> Event Date:</b></h2>
                               <p> {eventDate}</p>   
                   </div>
-                  <div class="column">   
+                  <div class="column4th">   
                         <h2><b> Ballroom:</b></h2>
                               <p> {ballroom}</p> 
                   </div>
@@ -86,15 +86,15 @@
 
             <h3><b><u> Ceremony</u></b><h3> 
             <div class="row">
-                  <div class="column2">
+                  <div class="column3rd">
                         <h2><b> Ceremony Location:</b></h2>
                               <p> {ceremonyLocation}</p>
                   </div>
-                  <div class="column2">
+                  <div class="column3rd">
                         <h2><b> Ceremony Start Time:</b></h2>
                               <p> {cerStartTime}</p>
                   </div>
-                  <div class="column2">
+                  <div class="column3rd">
                         <h2><b> Approximate Ceremony End Time:</b></h2>
                               <p> {cerEndTime}</p>   
                   </div>
@@ -111,66 +111,66 @@
                               <p> {cereNotes}</p>
 
       
-            <h3><b> Room/Table Design</b><h3> 
+            <h3><b><u> Room/Table Design</u></b><h3> 
                         <h2><b> Total Number of Guest Tables:</b></h2>
                               <p> {guestTables}</p>
                               <p><i>***Any outside linen must be submitted one week prior.</i> {priorDate}</p>
             <div class="row">
-                  <div class="column">
+                  <div class="column4th">
                         <h2><b> Sign-In Table needed:</b></h2>
                               <p> {signInNeed}</p>
                   </div>
-                  <div class="column">
+                  <div class="column4th">
                         <h2><b> Cake Table needed?:</b></h2>
                               <p> {cakeNeed}</p>
                   </div>
-                  <div class="column">
+                  <div class="column4th">
                         <h2><b> Gift Table needed?:</b></h2>
                               <p> {giftNeed}</p>   
                   </div>
-                  <div class="column">   
+                  <div class="column4th">   
                         <h2><b> Dessert Table needed?:</b></h2>
                               <p> {dessertNeed}</p> 
                   </div>
             </div>
             <div class="row">
-                  <div class="column">
+                  <div class="column4th">
                         <h2><b> Sign-In Table Linen:</b></h2>
                               <p> {signInLinen}</p>
                   </div>
-                  <div class="column">
+                  <div class="column4th">
                         <h2><b> Cake Table Linen:</b></h2>
                               <p> {cakeLinen}</p>
                   </div>
-                  <div class="column">
+                  <div class="column4th">
                         <h2><b> Gift Table Linen:</b></h2>
                               <p> {giftLinen}</p>   
                   </div>
-                  <div class="column">   
+                  <div class="column4th">   
                         <h2><b> Dessert Table Linen:</b></h2>
                               <p> {dessertLinen}</p> 
                   </div>
             </div>
             <div class="row">
-                  <div class="column3">
+                  <div class="columnHalf">
                         <h2><b> Head Table Linen:</b></h2>
                               <p> {headLinen}</p>
                   </div>
-                  <div class="column3">
+                  <div class="columnHalf">
                         <h2><b> Number of Guests on Head Table:</b></h2>
                               <p> {guestsHeadTable}</p>
                   </div>
             </div>
             <div class="row">
-                  <div class="column2">
-                        <h2><b> Stage Rental?:</b></h2>
+                  <div class="column3rd">
+                        <h2><b> Stage Rental:</b></h2>
                               <p> {stageRental}</p>
                   </div>
-                  <div class="column2">
+                  <div class="column3rd">
                         <h2><b> Stage Size:</b></h2>
                               <p> {stageLocation}</p>
                   </div>
-                  <div class="column2">
+                  <div class="column3rd">
                         <h2><b> Stage Size:</b></h2>
                               <p> {stageSize}</p>   
                   </div>
@@ -180,22 +180,42 @@
                         <h2><b> Seating Chart:</b></h2>
                               <p> {seatingChart}</p>
                               <p><i>***Seating chart must be provided 10 days prior to event date</i></p>
+            <div class="row">
+                  <div class="column4th">
                         <h2><b> Table Linen:</b></h2>
                               <p> {tableLinen}</p>
+                  </div>
+                  <div class="column4th">
                         <h2><b> Centerpiece:</b></h2>
                               <p> {centerpiece}</p>
+                  </div>
+                  <div class="column4th">
                         <h2><b> Flower Ball:</b></h2>
-                              <p> {flowerBall}</p>
+                              <p> {flowerBall}</p>   
+                  </div>
+                  <div class="column4th">   
                         <h2><b> Flower Ball Colors:</b></h2>
-                              <p> {flowBallCol}</p>
+                              <p> {flowBallCol}</p> 
+                  </div>
+            </div>
+            <div class="row">
+                  <div class="column4th">
                         <h2><b> Charger Type:</b></h2>
                               <p> {charger}</p>
+                  </div>
+                  <div class="column4th">
                         <h2><b> Glassware:</b></h2>
                               <p> {glass}</p>
+                  </div>
+                  <div class="column4th">
                         <h2><b> Napkin Color:</b></h2>
-                              <p> {napColor}</p>
+                              <p> {napColor}</p>   
+                  </div>
+                  <div class="column4th">   
                         <h2><b> Napkin Fold:</b></h2>
-                              <p> {napFold}</p>
+                              <p> {napFold}</p> 
+                  </div>
+            </div>
                         <h2><b> Room/Table Design Notes:</b></h2>
                               <p> {roomNotes}</p>
 
