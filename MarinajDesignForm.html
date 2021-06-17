@@ -37,6 +37,10 @@
             float: left;
             width: 25%;
             }
+            .column2 {
+            float: left;
+            width: 33%;
+            }
             .row:after {
             content: "";
             display: table;
@@ -48,60 +52,49 @@
       <div>Submission Time: {submissiondt}</div>
       <ul class="list">
       <h1><b><u> Design Details Form</u></b>
-        <h3><b> Primary Event Information</b><h3> 
-        <div class="row">
-            <div class="column">
-                <h2><b> Event Name:</b></h2>
-                        <p> {eventName}</p>
-            </div>
-            <div class="column">
-                <h2><b> Host:</b></h2>
-                        <p> {Host}</p>
-            </div>
-            <div class="column">
-                <h2><b> Event Date:</b></h2>
-                        <p> {eventDate}</p>   
-            </div>
-            <div class="column">   
-                <h2><b> Ballroom:</b></h2>
-                        <p> {ballroom}</p> 
-            </div>
-        </div>
-      <h2><b> VIP Suite:</b></h2>
-            <p> {vipSuite}</p>
-      <h2><b> Doors open at:</b></h2>
-            <p> {doorsOpen}</p>
-      <h2><b> Facility vacated by:</b></h2>
-            <p> {vacate}</p>                        
-      <h2><b> Final Guest Count:</b></h2>
-            <p> {totalGuests}</p>
-
             <h3><b> Primary Event Information</b><h3> 
-                <div class="row">
-                    <div class="column">
+            <div class="row">
+                  <div class="column">
                         <h2><b> Event Name:</b></h2>
-                                <p> {eventName}</p>
-                    </div>
-                    <div class="column">
+                              <p> {eventName}</p>
+                  </div>
+                  <div class="column">
                         <h2><b> Host:</b></h2>
-                                <p> {Host}</p>
-                    </div>
-                    <div class="column">
+                              <p> {Host}</p>
+                  </div>
+                  <div class="column">
                         <h2><b> Event Date:</b></h2>
-                                <p> {eventDate}</p>   
-                    </div>
-                    <div class="column">   
+                              <p> {eventDate}</p>   
+                  </div>
+                  <div class="column">   
                         <h2><b> Ballroom:</b></h2>
-                                <p> {ballroom}</p> 
-                    </div>
-                </div>
-      <h3><b> Ceremony</b><h3> 
-      <h2><b> Ceremony Location:</b></h2>
-            <p> {ceremonyLocation}</p> 
-      <h2><b> Ceremony Start Time:</b></h2>
-            <p> {cerStartTime}</p>
-      <h2><b> Approximate Ceremony End Time:</b></h2>
-            <p> {cerEndTime}</p>
+                              <p> {ballroom}</p> 
+                  </div>
+            </div>
+                  <h2><b> VIP Suite:</b></h2>
+                        <p> {vipSuite}</p>
+                  <h2><b> Doors open at:</b></h2>
+                        <p> {doorsOpen}</p>
+                  <h2><b> Facility vacated by:</b></h2>
+                        <p> {vacate}</p>                        
+                  <h2><b> Final Guest Count:</b></h2>
+                        <p> {totalGuests}</p>
+
+            <h3><b> Ceremony</b><h3> 
+            <div class="row">
+                  <div class="column2">
+                  <h2><b> Ceremony Location:</b></h2>
+                        <p> {ceremonyLocation}</p>
+                  </div>
+                  <div class="column2">
+                  <h2><b> Ceremony Start Time:</b></h2>
+                        <p> {cerStartTime}</p>
+                  </div>
+                  <div class="column2">
+                  <h2><b> Approximate Ceremony End Time:</b></h2>
+                        <p> {cerEndTime}</p>   
+                  </div>
+            </div>
       <h2><b> Total chairs needed for ceremony:</b></h2>
             <p> {totalChairs}</p>
       <h2><b> Ceremony Set-up Style:</b></h2>
