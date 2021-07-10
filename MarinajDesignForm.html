@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    </style>
+    <link rel="stylesheet" href="/styleform.css">
+  </head>
+
+  <body>
+    <div class="wmark">
+      <div class="metadata">
+        Submission Time: {submissiondt} • Filled out by: {currentEmployee}
+      </div>
+      <h1> Design Details Form</h1>
+      <div class="sectionborder">
+        <h3> Primary Event Information</h3>
+        <div class="row">
+          <div class="column4th">
+            <h2> Event Name:</h2>
+            <p> {eventName}</p>
+          </div>
+          <div class="column4th">
+            <h2> Host:</h2>
+            <p> {host}</p>
+          </div>
+          <div class="column4th">
+            <h2> Event Date:</h2>
+            <p> {eventDate}</p>
+          </div>
+          <div class="column4th">
+            <h2> Ballroom:</h2>
+            <p> {ballroom}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column4th">
+            <h2> VIP Suite?:</h2>
+            <p> {vipSuite}</p>
+          </div>
+          <div class="column4th">
+            <h2> Doors open at:</h2>
+            <p> {doorsOpen}</p>
+          </div>
+          <div class="column4th">
+            <h2> Facility vacated by:</h2>
+            <p> {vacate}</p>
+          </div>
+          <div class="column4th">
+            <h2> Final Guest Count:</h2>
+            <p> {totalGuests}</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="sectionborder">
+        <h3> Ceremony</h3>
+        <div class="row">
+          <div class="column3rd">
+            <h2> Ceremony Location:</h2>
+            <p> {ceremonyLocation}</p>
+          </div>
+          <div class="column3rd">
+            <h2> Ceremony Start Time:</h2>
+            <p> {cerStartTime}</p>
+          </div>
+          <div class="column3rd">
+            <h2> Approximate Ceremony End Time:</h2>
+            <p> {cerEndTime}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columnHalf">
+            <h2> Total chairs needed for ceremony:</h2>
+            <p> {totalChairs}</p>
+          </div>
+          <div class="columnHalf">
+            <h2> Ceremony Set-up Style:</h2>
+            <p> {setupStyle}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columnHalf">
+            <h2> Will post-ceremony photoshoot be on site?:</h2>
+            <p> {postCerePhoto}</p>
+          </div>
+          <div class="columnHalf">
+            <h2> Will host be providing additional decor?:</h2>
+            <p> {addDecor}</p>
+          </div>
+        </div>
+
+        <h2> Ceremony Notes:</h2>
+        <p> {cereNotes}</p>
+      </div>
+
+
+      <div class="sectionborder">
+        <h3> Room/Table Design</h3>
+        <div class="row">
+          <div class="columnHalf">
+            <h2> Total Number of Guest Tables:</h2>
+            <p> {guestTables}</p>
+          </div>
+          <div class="columnHalf">
+            <h2> Guest Table Linen:</h2>
+            <p> {guestLinen}</p>
+          </div>
+        </div>
+        <p><i>***Any outside linen must be submitted one week prior to event date.</i></p>
+        <div class="row">
+          <div class="column4th">
+            <h2> Sign-In Table needed?:</h2>
+            <p> {signInNeed}</p>
+          </div>
+          <div class="column4th">
+            <h2> Cake Table needed?:</h2>
+            <p> {cakeNeed}</p>
+          </div>
+          <div class="column4th">
+            <h2> Gift Table needed?:</h2>
+            <p> {giftNeed}</p>
+          </div>
+          <div class="column4th">
+            <h2> Dessert Table needed?:</h2>
+            <p> {dessertNeed}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column4th">
+            <h2> Sign-In Table Linen:</h2>
+            <p> {signInLinen}</p>
+          </div>
+          <div class="column4th">
+            <h2> Cake Table Linen:</h2>
+            <p> {cakeLinen}</p>
+          </div>
+          <div class="column4th">
+            <h2> Gift Table Linen:</h2>
+            <p> {giftLinen}</p>
+          </div>
+          <div class="column4th">
+            <h2> Dessert Table Linen:</h2>
+            <p> {dessertLinen}</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column4th">
+            <h2> Stage Rental?:</h2>
+            <p> {stageRental}</p>
+          </div>
+          <div class="column4th">
+            <h2> Stage Location:</h2>
+            <p> {stageLocation}</p>
+          </div>
+          <div class="column4th">
+            <h2> Stage Linen Colors:</h2>
+            <p> {stageColor}</p>
+          </div>
+          <div class="column4th">
+            <h2> Stage Size:</h2>
+            <p> {stageSize}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column3rd">
+            <h2> Head Table Linen:</h2>
+            <p> {headLinen}</p>
+          </div>
+          <div class="column3rd">
+            <h2> Number of Guests on Head Table:</h2>
+            <p> {guestsHeadTable}</p>
+          </div>
+          <div class="column3rd">
+            <h2> Throne Chairs?:</h2>
+            <p> {throneChairs}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columnHalf">
+            <h2> Other tables needed:</h2>
+            <p> {otherTables}</p>
+          </div>
+          <div class="columnHalf">
+            <h2> Seating Chart:</h2>
+            <p> {seatingChart}</p>
+          </div>
+        </div>
+
+        <p><i>***Seating chart must be provided by the 10-day final meeting.</i></p>
+        <div class="row">
+          <div class="column4th">
+            <h2> Table Linen:</h2>
+            <p> {tableLinen}</p>
+          </div>
+          <div class="column4th">
+            <h2> Charger Type:</h2>
+            <p> {charger}</p>
+          </div>
+          <div class="column4th">
+            <h2> Napkin Color:</h2>
+            <p> {napColor}</p>
+          </div>
+          <div class="column4th">
+            <h2> Napkin Fold:</h2>
+            <p> {napFold}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column4th">
+            <h2> Glassware:</h2>
+            <p> {glass}</p>
+          </div>
+          <div class="column4th">
+            <h2> Centerpiece:</h2>
+            <p> {centerpiece}</p>
+          </div>
+          <div class="column4th">
+            <h2> Flower Ball?:</h2>
+            <p> {flowerBall}</p>
+          </div>
+          <div class="column4th">
+            <h2> Flower Ball Colors:</h2>
+            <p> {flowBallCol}</p>
+          </div>
+        </div>
+        <h2> Room/Table Design Notes:</h2>
+        <p> {roomNotes}</p>
+
+      </div>
+
+
+      <div class="sectionborder">
+        <h3> Vendors/Entertainment</h3>
+        <div class="box">
+          <h2> DJ/Number:</h2>
+          <p> {dj}</p>
+        </div>
+        <div class="box">
+          <div class="row">
+            <div class="column3rd">
+              <h2> Live Music?:</h2>
+              <p class="ex1"> {liveMusic}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Live Music #1 Name:</h2>
+              <p> {music1Name}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Live Music #1 Phone Number:</h2>
+              <p> {music1Phone}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column4th">
+              <h2> Live Music #1 Location:</h2>
+              <p> {music1Locat}</p>
+            </div>
+            <div class="column4th">
+              <h2> Live Music #1 Total Number of Members:</h2>
+              <p> {music1Members}</p>
+            </div>
+            <div class="column4th">
+              <h2> Live Music #1 Set Up Time:</h2>
+              <p> {music1Start}</p>
+            </div>
+            <div class="column4th">
+              <h2> Live Music #1 End Time:</h2>
+              <p> {music1End}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column3rd">
+              <h2> Second Live Music Group?:</h2>
+              <p> {musicSecond}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Live Music #2 Name:</h2>
+              <p> {music2Name}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Live Music #2 Phone Number:</h2>
+              <p> {music2Phone}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column4th">
+              <h2> Live Music #2 Location:</h2>
+              <p> {music2Locat}</p>
+            </div>
+            <div class="column4th">
+              <h2> Live Music #2 Total Number of Members:</h2>
+              <p> {music2Members}</p>
+            </div>
+            <div class="column4th">
+              <h2> Live Music #2 Set Up Time:</h2>
+              <p> {music2Start}</p>
+            </div>
+            <div class="column4th">
+              <h2> Live Music #2 End Time:</h2>
+              <p> {music2End}</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="row">
+            <div class="column3rd">
+              <h2> Photographer?:</h2>
+              <p> {photo}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Photographer Name:</h2>
+              <p> {photoName}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Photographer Phone Number:</h2>
+              <p> {photoPhone}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column3rd">
+              <h2> Photographer Time:</h2>
+              <p> {photoTime}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Photographer Liability Insurance Provider:</h2>
+              <p> {photoInsur}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Photographer Number of Meals:</h2>
+              <p> {photoMeals}</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="row">
+            <div class="column3rd">
+              <h2> Videographer?:</h2>
+              <p> {video}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Videographer Name:</h2>
+              <p> {videoName}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Videographer Phone Number:</h2>
+              <p> {videoPhone}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column3rd">
+              <h2> Videographer Time:</h2>
+              <p> {videoTime}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Videographer Liability Insurance Provider:</h2>
+              <p> {videoInsur}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Videographer Number of Meals:</h2>
+              <p> {videoMeals}</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="row">
+            <div class="column3rd">
+              <h2> Photo Booth?:</h2>
+              <p> {booth}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Photo Booth Name:</h2>
+              <p> {boothName}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Photo Booth Phone Number:</h2>
+              <p> {boothPhone}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column4th">
+              <h2> Photo Booth Location:</h2>
+              <p> {boothLocat}</p>
+            </div>
+            <div class="column4th">
+              <h2> Photo Booth Time:</h2>
+              <p> {boothTime}</p>
+            </div>
+            <div class="column4th">
+              <h2> Photo Booth Liability Insurance Provider:</h2>
+              <p> {boothInsur}</p>
+            </div>
+            <div class="column4th">
+              <h2> Photo Booth Number of Meals:</h2>
+              <p> {boothMeals}</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="row">
+            <div class="column3rd">
+              <h2> Florist?:</h2>
+              <p> {flor}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Florist Name:</h2>
+              <p> {florName}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Florist Phone Number:</h2>
+              <p> {florPhone}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column3rd">
+              <h2> Florist Time:</h2>
+              <p> {florTime}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Florist Liability Insurance Provider:</h2>
+              <p> {vend1Insur}</p>
+            </div>
+            <div class="column3rd">
+              <h2> Florist Number of Meals:</h2>
+              <p> {florMeals}</p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="row">
+            <div class="columnHalf">
+              <h2> Other Vendor #1?:</h2>
+              <p> {vend1}</p>
+            </div>
+            <div class="columnHalf">
+              <h2> Other Vendor #1 Notes:</h2>
+              <p> {vend1Notes}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columnHalf">
+              <h2> Other Vendor #1 Liability Insurance:</h2>
+              <p> {vend1Insur}</p>
+            </div>
+            <div class="columnHalf">
+              <h2> Other Vendor #1 Number of Meals:</h2>
+              <p> {vend2Meals}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columnHalf">
+              <h2> Other Vendor #2?:</h2>
+              <p> {vend2}</p>
+            </div>
+            <div class="columnHalf">
+              <h2> Other Vendor #2 Notes:</h2>
+              <p> {vend2Notes}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="columnHalf">
+              <h2> Other Vendor #2 Liability Insurance:</h2>
+              <p> {vend2Insur}</p>
+            </div>
+            <div class="columnHalf">
+              <h2> Other Vendor #2 Number of Meals:</h2>
+              <p> {vend2Meals}</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columnHalf">
+            <h2> Total Number of Vendor Meals:</h2>
+            <p> {totalVendMeals}</p>
+          </div>
+          <div class="columnHalf">
+            <h2> Total Number of Vendor Tables</h2>
+            <p> {totalVendTabs}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columnHalf">
+            <h2> Will vendors need extra breakdown time?:</h2>
+            <p><i>***A charge of $650 will be applied per-hour needed after official event end time.</i></p>
+            <p> {vendBreak}</p>
+          </div>
+          <div class="columnHalf">
+            <h2> Approximate Breakdown Timeframe:</h2>
+            <p> {breakTime}</p>
+          </div>
+        </div>
+        <h2> Vendor/Entertainment Notes:</h2>
+        <p> {vendNotes}</p>
+
+      </div>
+      <h3> All final details/liability insurance must be submitted at least 10 days prior to event date.
+        Any changes that occur after cannot be guaranteed or will be subject to a fee.</h3>
+  </body>
+</html>
