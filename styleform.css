@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Answers';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/forum-v11-latin-regular.woff2') format('woff2'), 
+       url('/fonts/forum-v11-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Labels';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/montserrat-v15-latin-ext_latin-regular.woff2') format('woff2'), 
+       url('/fonts/montserrat-v15-latin-ext_latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Labels';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/montserrat-v15-latin-ext_latin-italic.woff2') format('woff2'), 
+       url('/fonts/montserrat-v15-latin-ext_latin-italic.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Labels';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/montserrat-v15-latin-ext_latin-600.woff2') format('woff2'), 
+       url('/fonts/montserrat-v15-latin-ext_latin-600.woff') format('woff'); 
+}
+
+body {
+background-size: contain;
+background-attachment: scroll;
+}
+
+.metadata {
+  font-family: Answers, Georgia, Times, serif;
+  text-align: center;
+}
+
+.sectionborder {
+  border: 11px double palegoldenrod;
+}
+h1{
+    font-size: 30px;
+font-family: Labels;
+text-align: center;
+/* padding: 0px 10px; */
+text-transform: uppercase;
+}
+h2{
+    font-size: 15px;
+font-family: Labels;
+text-transform: uppercase;
+}
+h3{
+    font-size: 20px;
+font-family: Labels;
+text-align: center;
+text-transform: uppercase;
+}
+p {
+    font-size: 15px;
+font-family: Answers;
+text-transform: none;
+}
+.box {
+    border-bottom: 2px double palegoldenrod;
+    padding: 10px;
+}
+/* Set additional styling options for the columns*/
+.wmark {
+      background-image: url('https://marinajevents-my.sharepoint.com/personal/daniel_marinajevents_com/Documents/Design_Details_Form/LiteMLogo.png');
+background-size: contain;
+background-attachment: scroll;
+}
+.column4th {
+float: left;
+width: 25%;
+}
+.column3rd {
+float: left;
+width: 33.33%;
+}
+.columnHalf {
+float: left;
+width: 50%;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
